@@ -9,7 +9,7 @@ const Fifth = () => {
             <Header />
             <div className='container '>
                 <div className='bg-white p-5 mt-5 rounded-xl mx-auto'>
-                   <Link to={'/third'}><KeyboardBackspaceIcon sx={{ fontSize: "40px", cursor: "pointer", padding: "5px", borderRadius: "50%", color: "#fda839" }} /></Link>
+                   <Link to={'/fourth'}><KeyboardBackspaceIcon sx={{ fontSize: "40px", cursor: "pointer", padding: "5px", borderRadius: "50%", color: "#fda839" }} /></Link>
              <div className='w-[50%] sm:w-full mx-auto'>
                      
              <div className='timer_list'>
