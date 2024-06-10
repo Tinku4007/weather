@@ -21,6 +21,12 @@ module.exports = {
       },
       'red':{
         400:'#ff0000'
+      },
+      'green':{
+        400:'#5e9c21'
+      },
+      'light_yellow':{
+        500:'#d3d55b'
       }
     },
     screens: {

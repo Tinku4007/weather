@@ -1,10 +1,8 @@
-import React from 'react'
-import SettingsApplicationsIcon from '@mui/icons-material/SettingsApplications';
-import HomeIcon from '@mui/icons-material/Home';
+
 import { Link } from 'react-router-dom';
 import Header from '../Header';
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
-import WeeklyData from '../WeeklyData';
+
 const Second = () => {
     return (
         <div className='h-screen'>
@@ -13,7 +11,7 @@ const Second = () => {
                 <div className='bg-white p-5 mt-5 rounded-xl mx-auto'>
                    <Link to={'/first'}><KeyboardBackspaceIcon sx={{ fontSize: "40px", cursor: "pointer", padding: "5px", borderRadius: "50%", color: "#fda839" }} /></Link>
                   
-             <div className='w-[70%] mx-auto'>
+             <div className='w-[70%] sm:w-full mx-auto'>
              <div>
                  <p className='text-grey-500 font-semibold' >This is your pay dashboard to give you and idea of what your pay looks like. <b className='text-red-400 font-extrabold' >Keep in mind these are estimates only</b></p>
                  </div>
