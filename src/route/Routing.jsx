@@ -1,4 +1,3 @@
-import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from '../page/dashboard/Home'
 import Login from '../page/auth/Login'
@@ -7,6 +6,7 @@ import Second from '../components/sujjestion/Second'
 import UpdateUnavailability from '@/page/dashboard/UpdateUnavailability'
 import UpdateProfilePicture from '@/page/dashboard/UpdateProfilePicture'
 import UpdateAddress from '@/page/dashboard/UpdateAddress'
+import Third from '../components/sujjestion/Third';
 
 const Routing = () => {
     return (
@@ -16,6 +16,7 @@ const Routing = () => {
                 <Route path='/home' element={<Home />} />
                 <Route path='/first' element={<First />} />
                 <Route path='/second' element={<Second />} />
+                <Route path='/third' element={<Third/>} />
                 <Route path='/UpdateUnavailability' element={<UpdateUnavailability />} />
                 <Route path='/update_profile_picture' element={<UpdateProfilePicture />} />
                 <Route path='/update_address' element={<UpdateAddress />} />

@@ -9,6 +9,20 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'white': '#ffffff',
+      'yellow': {
+        900: '#fda839',
+      },
+      'grey':{
+        500:'#747474'
+      },
+      'red':{
+        400:'#ff0000'
+      }
+    },
     screens: {
       '2xl': { 'max': '1535px' },
       'xl': { 'max': '1279px' },
