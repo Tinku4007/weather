@@ -5,17 +5,17 @@ import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 
 const Second = () => {
     return (
-        <div className='h-screen'>
-            <Header />
-            <div className='container '>
-                <div className='bg-white p-5 mt-5 rounded-xl mx-auto'>
-                   <Link to={'/first'}><KeyboardBackspaceIcon sx={{ fontSize: "40px", cursor: "pointer", padding: "5px", borderRadius: "50%", color: "#fda839" }} /></Link>
+        <div className=''>
+
+            <div className='container  '>
+                <div className='bg-white p-3 mt-5 rounded-xl mx-auto'>
+                   
                   
              <div className='w-[70%] sm:w-full mx-auto'>
              <div>
                  <p className='text-grey-500 font-semibold' >This is your pay dashboard to give you and idea of what your pay looks like. <b className='text-red-400 font-extrabold' >Keep in mind these are estimates only</b></p>
                  </div>
-                 <div className='bg-white p-3 mt-3 w-1/2 rounded-lg sm:w-full'>
+                 <div className='bg-white p-3 mt-3 w-full rounded-lg sm:w-full'>
             <div className='flex items-end'>
                 <div className='w-[25%] mt-3 flex flex-col gap-3'>
                     <p className='text-yellow-900 font-semibold text-sm'>Hours</p>
@@ -119,13 +119,37 @@ const Second = () => {
                  </div>
 
 
-                 <div className='bg-white p-3 mt-3 w-1/2 rounded-lg sm:w-full mt-5'>
+                 <div className='bg-white p-2 mt-3 w-full  rounded-lg sm:w-full mt-5'>
                 <div className='flex justify-between'>
                     <h2 className='text-grey-500'>Mar 30</h2>
                     <p className='text-grey-500'>Approx. Pay: <span className='font-semibold text-[red]'>$209</span></p>
                 </div>
-                <div className='flex border-b border-dashed py-2 bg-[#c8eaa5]'>
-                    <div className='w-[33%] '>
+                <div className='flex border-b border-dashed py-2 bg-[#c8eaa5] pl-3 sm:pl-1 mt-3'>
+                    <div className='w-[33%]'>
+                        <p className='text-yellow-900 font-semibold text-sm '>Start</p>
+                        <span>11:30 Am</span>
+                        <div className='flex items-center gap-2 mt-3'>
+                            <p className='text-yellow-900 font-semibold text-sm'>Customer</p>
+                            <span className='text-grey-500 text-xs'>Brad Alien</span>
+                        </div>
+                    </div>
+                    <div className='w-[33%]'>
+                        <p className='text-yellow-900 font-semibold text-sm'>End</p>
+                        <span>11:30 Am</span>
+                        <div className='flex items-center gap-2 mt-3'>
+                            <span className='text-grey-500 text-xs'>Salt laka City</span>
+                        </div>
+                    </div>
+                    <div className='w-[33%]'>
+                        <p className='text-yellow-900 font-semibold text-sm'>Hrs</p>
+                        <span>11:30 Am</span>
+                        <div className='flex items-center gap-2 mt-3'>
+                            <span className='text-grey-500 text-xs'>12.5ml</span>
+                        </div>
+                    </div>
+                </div>
+                <div className='flex border-b border-dashed py-2 pl-3'>
+                    <div className='w-[33%]'>
                         <p className='text-yellow-900 font-semibold text-sm'>Start</p>
                         <span>11:30 Am</span>
                         <div className='flex items-center gap-2 mt-3'>
@@ -148,31 +172,7 @@ const Second = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex border-b border-dashed py-2'>
-                    <div className='w-[33%]'>
-                        <p className='text-yellow-900 font-semibold text-sm'>Start</p>
-                        <span>11:30 Am</span>
-                        <div className='flex items-center gap-2 mt-3'>
-                            <p className='text-yellow-900 font-semibold text-sm'>Customer</p>
-                            <span className='text-grey-500 text-xs'>Brad Alien</span>
-                        </div>
-                    </div>
-                    <div className='w-[33%]'>
-                        <p className='text-yellow-900 font-semibold text-sm'>End</p>
-                        <span>11:30 Am</span>
-                        <div className='flex items-center gap-2 mt-3'>
-                            <span className='text-grey-500 text-xs'>Salt laka City</span>
-                        </div>
-                    </div>
-                    <div className='w-[33%]'>
-                        <p className='text-yellow-900 font-semibold text-sm'>Hrs</p>
-                        <span>11:30 Am</span>
-                        <div className='flex items-center gap-2 mt-3'>
-                            <span className='text-grey-500 text-xs'>12.5ml</span>
-                        </div>
-                    </div>
-                </div>
-                <div className='flex border-b border-dashed py-2'>
+                <div className='flex border-b border-dashed py-2 pl-3'>
                     <div className='w-[33%]'>
                         <p className='text-yellow-900 font-semibold text-sm'>Start</p>
                         <span>11:30 Am</span>
@@ -205,11 +205,11 @@ const Second = () => {
             </div>
 
              </div>
-                    <Link to={'/third'} className='flex items-center justify-center  mt-10'>
+                    {/* <Link to={'/third'} className='flex items-center justify-center  mt-10'>
                         <button type="submit" className="bg-yellow-900 text-white text-xs font-semibold px-12 py-3 rounded-lg">
                             Next
                         </button>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </div>

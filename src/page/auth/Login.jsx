@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 const Login = () => {
     const navigate = useNavigate()
     const onSubmit = () => {
-        navigate('/first')
+        navigate('/walk_through')
     }
     return (
         <div className='login_page h-screen'>

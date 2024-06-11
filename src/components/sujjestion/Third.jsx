@@ -9,11 +9,11 @@ import SendIcon from '@mui/icons-material/Send';
 import TodayIcon from '@mui/icons-material/Today';
 const Third = () => {
   return (
-    <div className='h-screen'>
-    <Header />
+    <div className=''>
+   
     <div className='container'>
         <div className='bg-white p-4 mt-5 rounded-xl'>
-           <Link to={'/second'}><KeyboardBackspaceIcon sx={{ fontSize: "40px", cursor: "pointer", padding: "5px", borderRadius: "50%", color: "#fda839" }} /></Link>
+       
           
          <div className='status'>
             <p className='text-red-400 text-end font-bold'>Not Completed</p>
@@ -73,7 +73,7 @@ const Third = () => {
 <div className="building mt-4 flex  justify-between">
    <div>
     <div><p className='font-bold '>Building Information: <span className='text-[#5e72f7] font-bold'>(Take Keys)</span> </p>
-    <p>SF(2000),Beds(2),Baths(2),Take Vaccum Pets(+3),Clean Rafting(5),Flooring(Carpet,Hardwood)</p>
+    <p className='text-grey-500 font-semibold'>SF(2000), Beds(2), Baths(2), Take Vaccum Pets(+3), Clean Rafting(5), Flooring(Carpet, Hardwood)</p>
     </div>
    </div>
 
@@ -81,14 +81,14 @@ const Third = () => {
    <div>
       <div>
         <p className='font-bold'>Cleaning Types:</p>
-        <p className='text-grey-500'>General Clean Plus</p>
+        <p className='text-grey-500 font-semibold'>General Clean Plus</p>
       </div>
    </div>
    <div>
       <div>
         <p className='font-bold'>Deep Cleaning Items</p>
       
-      <ol className='list-decimal px-4 text-grey-500'>
+      <ol className='list-decimal px-4 text-grey-500 font-semibold'>
         <li>Kitch Cupboards (Outsides Only)</li>
         <li>Bath Cupboards (Outsides Only)</li>
         <li>Oven</li>
@@ -106,7 +106,7 @@ const Third = () => {
 <div>
   <div>
     <p className='font-bold'>Details:</p>
-    <p className='text-grey-500'>SF(2000),Beds(2),Baths(2),Take Vaccum Pets(+3),Clean Rating(5),Flooring(Carpet,Hardwood)</p>
+    <p className='text-grey-500 font-semibold'>SF(2000), Beds(2), Baths(2), Take Vaccum Pets(+3), Clean Rating(5), Flooring(Carpet, Hardwood)</p>
   </div>
 </div>
 
@@ -137,7 +137,7 @@ const Third = () => {
 <div className='notcomplete flex justify-between mt-5 items-center' >
   <div className='flex gap-5 Details'>
   <p><AddIcCallIcon sx={{ color:"#478e00"}}></AddIcCallIcon>   <InsertCommentIcon sx={{color:"#6fc1e9"}}></InsertCommentIcon>  </p>
-  <p className='text-grey-500'>Call/Text Client or partner(s)</p>
+  <p className='text-grey-500 font-semibold'>Call/Text Client or partner(s)</p>
   </div>
 
 
@@ -198,11 +198,11 @@ const Third = () => {
 
 
 
-            <Link to={'/fourth'} className='flex items-center justify-center  mt-10'>
+            {/* <Link to={'/fourth'} className='flex items-center justify-center  mt-10'>
                 <button type="submit" className="bg-yellow-900 text-white text-xs font-semibold px-12 py-3 rounded-lg">
                     Next
                 </button>
-            </Link>
+            </Link> */}
         </div>
     </div>
 </div>

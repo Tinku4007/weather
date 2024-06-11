@@ -1,16 +1,14 @@
 
 
 import { Link } from 'react-router-dom';
-import Header from '../Header';
-import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 
 const Fourth = () => {
     return (
-        <div className='h-screen'>
-            <Header />
+        <div className=''>
+       
             <div className='container '>
                 <div className='bg-white p-5 mt-5 rounded-xl mx-auto'>
-                   <Link to={'/third'}><KeyboardBackspaceIcon sx={{ fontSize: "40px", cursor: "pointer", padding: "5px", borderRadius: "50%", color: "#fda839" }} /></Link>
+               
                   
                     <div>
                              <ul className='list-disc once_list'>
@@ -36,11 +34,11 @@ const Fourth = () => {
                   <button className='btn_start'>Start Job</button>
                     </div>
                     
-                    <Link to={'/fifth'} className='flex items-center justify-center  mt-10'>
+                    {/* <Link to={'/fifth'} className='flex items-center justify-center  mt-10'>
                         <button type="submit" className="bg-yellow-900 text-white text-xs font-semibold px-12 py-3 rounded-lg">
                             Next
                         </button>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </div>
